@@ -1,5 +1,6 @@
 package com.safetyjabber;
 
+import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -33,6 +34,7 @@ public class AppTest
      */
     public void testApp()
     {
+    	Assert.fail("fail test");
         assertTrue( true );
     }
 }
